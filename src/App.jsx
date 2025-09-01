@@ -16,6 +16,7 @@ import AcademicProspectusPage from './pages/Academic-Prospectus/AcademicProspect
 import ContactUs from './pages/ContactUs/ContactUs.jsx';
 import NIRF from "./pages/NIRF/nirf.jsx";
 import ECell from './pages/ECell/ECell.jsx';
+import Examinations from './pages/Examinations/Examinations.jsx';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/academics/nirf" element={<NIRF />} />
         <Route path='/ecell' element={<ECell />} />
+        <Route path='/examinations' element={<Examinations />} />
         {/* Add more routes here */}
       </Routes>
       <Footer />
