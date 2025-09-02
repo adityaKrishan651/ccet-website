@@ -18,6 +18,7 @@ import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import NIRF from "./pages/NIRF/nirf.jsx";
 
 import ECell from './pages/ECell/ECell.jsx';
+import Examinations from './pages/Examinations/Examinations.jsx';
 import AdmissionNotices from "./pages/AdmissionNotices/AdmissionNotices.jsx";
 
 
@@ -45,7 +46,6 @@ function App() {
         <Route path="/academics/nirf" element={<NIRF />} />
 
         <Route path='/ecell' element={<ECell />} />
-        <Route path="/admissions/notices" element={<AdmissionNotices />} />
         {/* Add more routes here */}
       </Routes>
       <Footer />
